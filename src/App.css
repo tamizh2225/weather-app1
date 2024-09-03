@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Roboto Condensed", sans-serif;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0984e3;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 350px;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius:8px ;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.input-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 2px solid #74bbf0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cityInput{
+    flex: 1;
+    height: 30px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+
+}
+
+.search-icon{
+    padding: 10px;
+    height: 30px;
+    cursor: pointer;
+    background-color: aliceblue;
+
+}
+
+.search-icon img{
+    margin-top: 5px;
+}
+
+.image{
+    text-align: center;
+    height: 150px;
+    margin-bottom: 10px;
+    margin-bottom: 50px;
+
+}
+
+.image img{
+    width: 200px;
+    height: 200px;
+    
+} 
+
+.temp,.location,.country{
+    margin-top: 5px;
+    font-size: 35px;
+    color: #333;
+    text-transform: uppercase;
+    text-align: center;
+}
+.temp{
+    font-weight: 600 ;
+}
+
+.location{
+    color:#8e68ef ;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.country{
+    color: #453d21;
+    font-weight: 500;
+    font-size: 18px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.card div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.card div span {
+    font-size: 14px;
+
+}
+
+.humidity-percent,
+.wind-percent,
+.card div span:nth-child(2) {
+    font-size: 18px;
+
+}
+
+
+.icon{
+    width: 70px;
+    height: 70px;
+
+}
+
+.data-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top:20px ;
+}
+
+.element{
+    text-align: center;
+}
+
+.text{
+    font-size: 14px;
+    columns: #888;
+}
+
+.copy-right{
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+}
+
+.copy-right span{
+    color: #333;
+}
+
+.loading-message,
+.error-message,
+.city-not-found{
+    margin-top: 10px;
+    color: #888;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+
+}
